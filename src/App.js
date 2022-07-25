@@ -1,7 +1,7 @@
 import './App.scss';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
-import Mobilemenu from './components/Mobilemenu';
+// import Mobilemenu from './components/Mobilemenu';
 import Main from './components/Main'
 import Footer from './components/Footer';
 
@@ -9,11 +9,10 @@ function App() {
   return (
     <>
       <input type="checkbox" id="light" />
-      <input type="checkbox" id="menu" />
       <div className="App">
         <Sidebar />
         <Header />
-        <Mobilemenu />
+        {/* <Mobilemenu /> */}
         <Main />
         <Footer />
       </div>
