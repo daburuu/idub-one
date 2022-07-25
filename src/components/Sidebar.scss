@@ -1,0 +1,50 @@
+.Sidebar { 
+    grid-area: 1 / 1 / 13 / 2; 
+    border-right: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    .brand{
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    .socials{
+        .logo{
+            width: 100%;
+            margin-bottom: 40px;
+            img{
+                transition: all .2s ease-in-out;
+            }
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .burger{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .Sidebar{
+        grid-area: unset;
+        border-right: none;
+        text-align: left;
+        padding-left: 31px;
+        flex-direction: row;
+        .brand{
+            display: inline-block;
+        }
+        .socials{
+            display: none;
+        }
+        .burger{
+            display: block;
+            padding: 40px 35px;
+        }
+    }
+}
