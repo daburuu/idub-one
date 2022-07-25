@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/idub-one/static/css/main.f7bdffb5.css",
+    "main.js": "/idub-one/static/js/main.d4bcecd6.js",
+    "static/js/787.f8a5cd6d.chunk.js": "/idub-one/static/js/787.f8a5cd6d.chunk.js",
+    "index.html": "/idub-one/index.html",
+    "main.f7bdffb5.css.map": "/idub-one/static/css/main.f7bdffb5.css.map",
+    "main.d4bcecd6.js.map": "/idub-one/static/js/main.d4bcecd6.js.map",
+    "787.f8a5cd6d.chunk.js.map": "/idub-one/static/js/787.f8a5cd6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7bdffb5.css",
+    "static/js/main.d4bcecd6.js"
+  ]
+}
