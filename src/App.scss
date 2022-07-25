@@ -32,7 +32,8 @@
       #moon{
         display: block;
       }
-      nav ul li:hover{
+      nav ul li:hover,
+      nav ul li.active{
         border-bottom: 3px solid #0C0C0C;
       }
     }
